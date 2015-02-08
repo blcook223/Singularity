@@ -2,17 +2,19 @@
 
 A Singularity.gs plugin for Sublime Text 3.
 
-To use this pre-release version of the Singularity Sublime Text 3 plugin, in your
-`Packages` directory, execute the command `git clone https://github.com/blcook223/Singularity`.
-When this plugin is officially released, it will also be available through
-[Package Control](https://packagecontrol.io/).
+To use this pre-release version of the Singularity Sublime Text 3 plugin, execute
+the command `git clone https://github.com/blcook223/Singularity` in your Sublime
+Text `Packages` directory. When this plugin is officially released, it will also
+be available through [Package Control](https://packagecontrol.io/).
 
 ## Snippets
 
-To use a snippet, type in the two- to four-letter code in parentheses and press <kbd>Tab</kbd>.
+To use a snippet, type in the two- to four-letter code in parentheses and press
+<kbd>Tab</kbd>.
 
-Most snippets are available anywhere in a CSS, SCSS, LESS, or Stylus source file. Some,
-such as the various *-span include statements, are only available within a property list.
+Most snippets are available anywhere in a CSS, SCSS, LESS, or Stylus source file.
+Some, such as the various *-span include statements, are only available within a
+property list.
 
 
 ### Grid and Gutter Definitions
