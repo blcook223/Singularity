@@ -12,7 +12,7 @@ I plan to support this plugin for Sublime Text 3.
 
 To use a snippet, type in the 2- to 4-letter code in parentheses and press <kbd>Tab</kbd>.
 
-Most snippets are available anywhere in a CSS, SCSS, LESS, or Stylus source file. Some,
+Most snippets are available anywhere in a scss, Sscss, LESS, or Stylus source file. Some,
 such as the various *-span include statements, are only available within a property list.
 
 
@@ -20,25 +20,25 @@ such as the various *-span include statements, are only available within a prope
 
 __add-grid (ag)__
 
-```CSS
+```scss
 @include add-grid(${1:grid});
 ```
 
 __add-grid at (aga)__
 
-```CSS
+```scss
 @include add-grid(${1:grid} at ${2:min-width}px);
 ```
 
 __add-gutter (agu)__
 
-```CSS
+```scss
 @include add-gutter(${1:gutter});
 ```
 
 __add-gutter-style (agus)__
 
-```CSS
+```scss
 @include add-gutter-style('${1:style}');
 ```
 
@@ -47,29 +47,29 @@ __add-gutter-style (agus)__
 
 __change option (ch)__
 
-```CSS
+```scss
 @include sgs-change('${1:option}', ${2:value});
 ```
 
 __change output style (cho)__
 
-```CSS
+```scss
 @include sgs-change('output', ${1:value});
 ```
 
 __change direction (chd)__
 
-```CSS
+```scss
 @include sgs-change('direction', ${1:value});
 ```
 
 __turn on debug grid (dg)__
 
-```CSS
+```scss
 @include sgs-change('debug', ${1:true});
 
 ${2:.container} {
-    @include background-grid(\$color: ${3:blue});
+    @include background-grid($color: ${3:blue});
 }
 ```
 
@@ -78,7 +78,7 @@ ${2:.container} {
 
 __layout (lo)__
 
-```CSS
+```scss
 @include layout(${1:grid}, ${2:gutter}, '${3:output-style}', '${4:gutter-style}') {
     ${5:property}: ${6:value};
 }
@@ -86,7 +86,7 @@ __layout (lo)__
 
 __layout verbose (lov)__
 
-```CSS
+```scss
 @include layout((
     'grid': ${1:grid},
     'gutter': ${2:gutter},
@@ -99,7 +99,7 @@ __layout verbose (lov)__
 
 __layout-at (loa)__
 
-```CSS
+```scss
 @include layout-at(${1:grid}, ${2:min-width}px) {
     ${3:property}: ${4:value}
 }
@@ -107,7 +107,7 @@ __layout-at (loa)__
 
 __layout-at verbose (loav)__
 
-```CSS
+```scss
 @include layout((
     'grid': ${1:grid},
     'gutter': ${2:gutter},
@@ -123,61 +123,61 @@ __layout-at verbose (loav)__
 
 __grid-span (gs)__
 
-```CSS
+```scss
 @include grid-span(${1:columns}, ${2:start});
 ```
 
 __grid-span verbose (gsv)__
 
-```CSS
+```scss
 @include grid-span(${1:columns}, ${2:start}, ${3:grid}, ${4:gutter}, '${5:gutter-style}');
 ```
 
 __isolation-span (is)__
 
-```CSS
+```scss
 @include isolation-span(${1:columns}, ${2:start}, '${3:clear}');
 ```
 
 __isolation-span verbose (isv)__
 
-```CSS
+```scss
 @include isolation-span(${1:columns}, ${2:start}, '${3:clear}', ${4:grid}, ${5:gutter});
 ```
 
 __float-span (fs)__
 
-```CSS
+```scss
 @include float-span(${1:columns});
 ```
 
 __float-span verbose (fsv)__
 
-```CSS
-@include float-span(${1:columns}, \$grid: ${2:grid}, \$gutter: ${3:gutter});
+```scss
+@include float-span(${1:columns}, $grid: ${2:grid}, $gutter: ${3:gutter});
 ```
 
 __float-span first (fsf)__
 
-```CSS
+```scss
 @include float-span(${1:columns}, 'first');
 ```
 
 __float-span last (fsl)__
 
-```CSS
+```scss
 @include float-span(${1:columns}, 'last');
 ```
 
 __column-span (cs)__
 
-```CSS
+```scss
 column-span(${1:columns}, ${2:start}, ${3:grid}, ${4:gutter})
 ```
 
 __gutter-span (gus)__
 
-```CSS
+```scss
 gutter-span(${1:gutter}, ${2:grid})
 ```
 
@@ -185,24 +185,24 @@ gutter-span(${1:gutter}, ${2:grid})
 
 __include clearfix (icf)__
 
-```CSS
+```scss
 @include clearfix;
 ```
 
 __extend clearfix (ecf)__
 
-```CSS
+```scss
 @extend %clearfix;
 ```
 
 __find-grid (fg)__
 
-```CSS
+```scss
 find-grid(${1:grid})
 ```
 
 __find-gutter (fgu)__
 
-```CSS
+```scss
 find-gutter(${1:gutter})
 ```
