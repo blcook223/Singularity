@@ -8,9 +8,9 @@ When this plugin is officially released, it will also be available through
 
 ## Snippets
 
-To use a snippet, type in the 2- to 4-letter code in parentheses and press <kbd>Tab</kbd>.
+To use a snippet, type in the two- to four-letter code in parentheses and press <kbd>Tab</kbd>.
 
-Most snippets are available anywhere in a scss, Sscss, LESS, or Stylus source file. Some,
+Most snippets are available anywhere in a CSS, SCSS, LESS, or Stylus source file. Some,
 such as the various *-span include statements, are only available within a property list.
 
 
