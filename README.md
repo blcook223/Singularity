@@ -1,12 +1,10 @@
 # Singularity
-Singularity.gs plugin for Sublime Text
+A Singularity.gs plugin for Sublime Text 3.
 
 To use this pre-release version of the Singularity Sublime Text plugin, in your
 `Packages` directory, execute the command `git clone https://github.com/blcook223/Singularity`.
 When this plugin is officially released, it will also be available through
 [Package Control](https://packagecontrol.io/).
-
-I plan to support this plugin for Sublime Text 3.
 
 ## Snippets
 
