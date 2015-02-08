@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[@include layout((
+    'grid': ${1:grid},
+    'gutter': ${2:gutter},
+    'gutter style': '${3:gutter-style}',
+    'output': '${4:output-style}'
+), ${5:min-width}px) {
+    ${6:property}: ${7:value};
+}]]></content>
+    <tabTrigger>loav</tabTrigger>
+    <description>Singularity GS - Layout At (verbose)</description>
+    <scope>source.css, source.scss, source.less, source.stylus</scope>
+</snippet>

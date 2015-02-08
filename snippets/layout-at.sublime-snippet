@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[@include layout-at(${1:grid}, ${2:min-width}px) {
+    ${3:property}: ${4:value}
+}]]></content>
+    <tabTrigger>loa</tabTrigger>
+    <description>Singularity GS - Layout At</description>
+    <scope>source.css, source.scss, source.less, source.stylus</scope>
+</snippet>

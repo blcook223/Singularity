@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[@include sgs-change('debug', ${1:true});
+
+${2:.container} {
+    @include background-grid(\$color: ${3:blue});
+}]]></content>
+    <tabTrigger>dg</tabTrigger>
+    <description>Singularity GS - Debug Grid</description>
+    <scope>source.css, source.scss, source.less, source.stylus</scope>
+</snippet>

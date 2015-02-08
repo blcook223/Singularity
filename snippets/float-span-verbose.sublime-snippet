@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[@include float-span(${1:columns}, \$grid: ${2:grid}, \$gutter: ${3:gutter});]]></content>
+    <tabTrigger>fsv</tabTrigger>
+    <description>Singularity GS - Float Span (verbose)</description>
+    <scope>meta.property-list.css, meta.property-list.scss, meta.property-list.less, meta.property-list.stylus</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[@include clearfix;]]></content>
+    <tabTrigger>icf</tabTrigger>
+    <description>Singularity GS - Include Clearfix</description>
+    <scope>meta.property-list.css, meta.property-list.scss, meta.property-list.less, meta.property-list.stylus</scope>
+</snippet>
