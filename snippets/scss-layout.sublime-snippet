@@ -3,6 +3,6 @@
     ${5:property}: ${6:value};
 }]]></content>
     <tabTrigger>lo</tabTrigger>
-    <description>Singularity GS - Layout</description>
+    <description>Singularity.gs - Layout</description>
     <scope>source.scss</scope>
 </snippet>

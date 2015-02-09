@@ -5,6 +5,6 @@ ${2:.container} {
     @include background-grid(\$color: ${3:blue});
 }]]></content>
     <tabTrigger>dg</tabTrigger>
-    <description>Singularity GS - Debug Grid</description>
+    <description>Singularity.gs - Debug Grid</description>
     <scope>source.scss</scope>
 </snippet>

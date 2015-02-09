@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[@include float-span(${1:columns}, \$grid: ${2:grid}, \$gutter: ${3:gutter});]]></content>
     <tabTrigger>fsv</tabTrigger>
-    <description>Singularity GS - Float Span (verbose)</description>
+    <description>Singularity.gs - Float Span (verbose)</description>
     <scope>meta.property-list.scss</scope>
 </snippet>

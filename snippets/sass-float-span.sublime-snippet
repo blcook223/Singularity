@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[+float-span(${1:columns})]]></content>
     <tabTrigger>fs</tabTrigger>
-    <description>Singularity GS - Float Span</description>
+    <description>Singularity.gs - Float Span</description>
     <scope>meta.property-list.sass, text.haml</scope>
 </snippet>

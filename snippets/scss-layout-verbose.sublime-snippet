@@ -8,6 +8,6 @@
     ${5:property}: ${6:value};
 }]]></content>
     <tabTrigger>lov</tabTrigger>
-    <description>Singularity GS - Layout (verbose)</description>
+    <description>Singularity.gs - Layout (verbose)</description>
     <scope>source.scss</scope>
 </snippet>

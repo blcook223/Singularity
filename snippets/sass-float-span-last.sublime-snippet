@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[+float-span(${1:columns}, 'last')]]></content>
     <tabTrigger>fsl</tabTrigger>
-    <description>Singularity GS - Float Span Last</description>
+    <description>Singularity.gs - Float Span Last</description>
     <scope>meta.property-list.sass, text.haml</scope>
 </snippet>

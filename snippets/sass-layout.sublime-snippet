@@ -2,6 +2,6 @@
     <content><![CDATA[+layout(${1:grid}, ${2:gutter}, '${3:output-style}', '${4:gutter-style}')
     ${5:property}: ${6:value}]]></content>
     <tabTrigger>lo</tabTrigger>
-    <description>Singularity GS - Layout</description>
+    <description>Singularity.gs - Layout</description>
     <scope>source.sass, text.haml</scope>
 </snippet>

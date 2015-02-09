@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[@include float-span(${1:columns}, 'first');]]></content>
     <tabTrigger>fsf</tabTrigger>
-    <description>Singularity GS - Float Span First</description>
+    <description>Singularity.gs - Float Span First</description>
     <scope>meta.property-list.scss</scope>
 </snippet>

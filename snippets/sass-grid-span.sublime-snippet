@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[+grid-span(${1:columns}, ${2:start})]]></content>
     <tabTrigger>gs</tabTrigger>
-    <description>Singularity GS - Grid Span</description>
+    <description>Singularity.gs - Grid Span</description>
     <scope>meta.property-list.sass, text.haml</scope>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[+sgs-change('${1:option}', ${2:value})]]></content>
     <tabTrigger>ch</tabTrigger>
-    <description>Singularity GS - Change Option</description>
+    <description>Singularity.gs - Change Option</description>
     <scope>source.sass, text.haml</scope>
 </snippet>

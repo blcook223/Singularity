@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[+clearfix]]></content>
     <tabTrigger>icf</tabTrigger>
-    <description>Singularity GS - Include Clearfix</description>
+    <description>Singularity.gs - Include Clearfix</description>
     <scope>meta.property-list.sass, text.haml</scope>
 </snippet>

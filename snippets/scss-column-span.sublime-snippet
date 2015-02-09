@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[column-span(${1:columns}, ${2:start}, ${3:grid}, ${4:gutter})]]></content>
     <tabTrigger>cs</tabTrigger>
-    <description>Singularity GS - Column Span</description>
+    <description>Singularity.gs - Column Span</description>
     <scope>source.scss</scope>
 </snippet>

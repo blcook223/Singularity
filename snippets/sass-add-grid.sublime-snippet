@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[+add-grid(${1:grid})]]></content>
     <tabTrigger>ag</tabTrigger>
-    <description>Singularity GS - Add Grid</description>
+    <description>Singularity.gs - Add Grid</description>
     <scope>source.sass, text.haml</scope>
 </snippet>

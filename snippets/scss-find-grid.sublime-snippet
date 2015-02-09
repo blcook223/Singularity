@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[find-grid(${1:grid})]]></content>
     <tabTrigger>fg</tabTrigger>
-    <description>Singularity GS - Find Grid</description>
+    <description>Singularity.gs - Find Grid</description>
     <scope>source.scss</scope>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[@include add-gutter(${1:gutter});]]></content>
     <tabTrigger>agu</tabTrigger>
-    <description>Singularity GS - Add Gutter</description>
+    <description>Singularity.gs - Add Gutter</description>
     <scope>source.scss</scope>
 </snippet>

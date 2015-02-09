@@ -2,6 +2,6 @@
     <content><![CDATA[+layout(('grid': ${1:grid}, 'gutter': ${2:gutter}, 'gutter style': '${3:gutter-style}', 'output': '${4:output-style}'))
     ${5:property} ${6:value}]]></content>
     <tabTrigger>lov</tabTrigger>
-    <description>Singularity GS - Layout (verbose)</description>
+    <description>Singularity.gs - Layout (verbose)</description>
     <scope>source.sass, text.haml</scope>
 </snippet>

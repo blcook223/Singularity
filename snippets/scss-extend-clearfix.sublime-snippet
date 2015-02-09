@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[@extend %clearfix;]]></content>
     <tabTrigger>ecf</tabTrigger>
-    <description>Singularity GS - Extend Clearfix</description>
+    <description>Singularity.gs - Extend Clearfix</description>
     <scope>meta.property-list.scss</scope>
 </snippet>

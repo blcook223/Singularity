@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[@include isolation-span(${1:columns}, ${2:start}, '${3:clear}', ${4:grid}, ${5:gutter});]]></content>
     <tabTrigger>isv</tabTrigger>
-    <description>Singularity GS - Isolation Span (verbose)</description>
+    <description>Singularity.gs - Isolation Span (verbose)</description>
     <scope>meta.property-list.scss</scope>
 </snippet>

@@ -3,6 +3,6 @@
     ${3:property}: ${4:value};
 }]]></content>
     <tabTrigger>loa</tabTrigger>
-    <description>Singularity GS - Layout At</description>
+    <description>Singularity.gs - Layout At</description>
     <scope>source.scss</scope>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[find-gutter(${1:gutter})]]></content>
     <tabTrigger>fgu</tabTrigger>
-    <description>Singularity GS - Find Gutter</description>
+    <description>Singularity.gs - Find Gutter</description>
     <scope>source.sass, text.haml</scope>
 </snippet>
