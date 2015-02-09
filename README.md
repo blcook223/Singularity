@@ -175,12 +175,7 @@ __scss__
 __sass__
 
 ```sass
-+layout((
-    'grid': ${1:grid},
-    'gutter': ${2:gutter},
-    'gutter style': '${3:gutter-style}',
-    'output': '${4:output-style}'
-))
++layout(('grid': ${1:grid}, 'gutter': ${2:gutter}, 'gutter style': '${3:gutter-style}', 'output': '${4:output-style}'))
     ${5:property}: ${6:value}
 ```
 
@@ -219,12 +214,7 @@ __scss__
 __sass__
 
 ```sass
-+layout((
-    'grid': ${1:grid},
-    'gutter': ${2:gutter},
-    'gutter style': '${3:gutter-style}',
-    'output': '${4:output-style}'
-), ${5:min-width}px)
++layout(('grid': ${1:grid}, 'gutter': ${2:gutter}, 'gutter style': '${3:gutter-style}', 'output': '${4:output-style}'), ${5:min-width}px)
     ${6:property} ${7:value}
 ```
 
