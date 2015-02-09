@@ -21,53 +21,55 @@ list.
 
 #### add-grid (ag)
 
-__scss__
+__SCSS__
 
 ```scss
 @include add-grid(${1:grid});
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +add-grid(${1:grid})
-
+```
 
 #### add-grid at (aga)
 
-__scss__
+__SCSS__
 
 ```scss
 @include add-grid(${1:grid} at ${2:min-width}px);
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +add-grid(${1:grid} at ${2:min-width}px)
+```
 
 #### add-gutter (agu)
 
-__scss__
+__SCSS__
 
 ```scss
 @include add-gutter(${1:gutter});
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +add-gutter(${1:gutter})
+```
 
 #### add-gutter-style (agus)
 
-__scss__
+__SCSS__
 
 ```scss
 @include add-gutter-style('${1:style}');
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +add-gutter-style('${1:style')
@@ -77,13 +79,13 @@ __sass__
 
 #### change option (ch)
 
-__scss__
+__SCSS__
 
 ```scss
 @include sgs-change('${1:option}', ${2:value});
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +sgs-change('${1:option}', ${2:value})
@@ -91,13 +93,13 @@ __sass__
 
 #### change output style (cho)
 
-__scss__
+__SCSS__
 
 ```scss
 @include sgs-change('output', ${1:value});
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +sgs-change('output', ${1:value})
@@ -105,13 +107,13 @@ __sass__
 
 #### change direction (chd)
 
-__scss__
+__SCSS__
 
 ```scss
 @include sgs-change('direction', ${1:value});
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +sgs-change('direction', ${1:value})
@@ -119,7 +121,7 @@ __sass__
 
 #### turn on debug grid (dg)
 
-__scss__
+__SCSS__
 
 ```scss
 @include sgs-change('debug', ${1:true});
@@ -129,7 +131,7 @@ ${2:.container} {
 }
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +sgs-change('debug', ${1:true})
@@ -142,7 +144,7 @@ ${2:.container}
 
 #### layout (lo)
 
-__scss__
+__SCSS__
 
 ```scss
 @include layout(${1:grid}, ${2:gutter}, '${3:output-style}', '${4:gutter-style}') {
@@ -150,7 +152,7 @@ __scss__
 }
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +layout(${1:grid}, ${2:gutter}, '${3:output-style}', '${4:gutter-style}')
@@ -159,7 +161,7 @@ __sass__
 
 #### layout verbose (lov)
 
-__scss__
+__SCSS__
 
 ```scss
 @include layout((
@@ -172,7 +174,7 @@ __scss__
 }
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +layout(('grid': ${1:grid}, 'gutter': ${2:gutter}, 'gutter style': '${3:gutter-style}', 'output': '${4:output-style}'))
@@ -181,7 +183,7 @@ __sass__
 
 #### layout-at (loa)
 
-__scss__
+__SCSS__
 
 ```scss
 @include layout-at(${1:grid}, ${2:min-width}px) {
@@ -189,7 +191,7 @@ __scss__
 }
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +layout-at(${1:grid}, ${2:min-width}px)
@@ -198,7 +200,7 @@ __sass__
 
 #### layout-at verbose (loav)
 
-__scss__
+__SCSS__
 
 ```scss
 @include layout((
@@ -211,7 +213,7 @@ __scss__
 }
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +layout(('grid': ${1:grid}, 'gutter': ${2:gutter}, 'gutter style': '${3:gutter-style}', 'output': '${4:output-style}'), ${5:min-width}px)
@@ -222,13 +224,13 @@ __sass__
 
 #### grid-span (gs)
 
-__scss__
+__SCSS__
 
 ```scss
 @include grid-span(${1:columns}, ${2:start});
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +grid-span(${1:columns}, ${2:start})
@@ -236,13 +238,13 @@ __sass__
 
 #### grid-span verbose (gsv)
 
-__scss__
+__SCSS__
 
 ```scss
 @include grid-span(${1:columns}, ${2:start}, ${3:grid}, ${4:gutter}, '${5:gutter-style}');
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +grid-span(${1:columns}, ${2:start}, ${3:grid}, ${4:gutter}, '${5:gutter-style}')
@@ -250,13 +252,13 @@ __sass__
 
 #### isolation-span (is)
 
-__scss__
+__SCSS__
 
 ```scss
 @include isolation-span(${1:columns}, ${2:start}, '${3:clear}');
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +isolation-span(${1:columns}, ${2:start}, '${3:clear}')
@@ -264,13 +266,13 @@ __sass__
 
 #### isolation-span verbose (isv)
 
-__scss__
+__SCSS__
 
 ```scss
 @include isolation-span(${1:columns}, ${2:start}, '${3:clear}', ${4:grid}, ${5:gutter});
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +isolation-span(${1:columns}, ${2:start}, '${3:clear}', ${4:grid}, ${5:gutter})
@@ -278,13 +280,13 @@ __sass__
 
 #### float-span (fs)
 
-__scss__
+__SCSS__
 
 ```scss
 @include float-span(${1:columns});
 ```
 
-__sass__
+__SASS__
 
 ```scss
 +float-span(${1:columns})
@@ -292,13 +294,13 @@ __sass__
 
 #### float-span verbose (fsv)
 
-__scss__
+__SCSS__
 
 ```scss
 @include float-span(${1:columns}, $grid: ${2:grid}, $gutter: ${3:gutter});
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +float-span(${1:columns}, $grid: ${2:grid}, $gutter: ${3:gutter})
@@ -306,13 +308,13 @@ __sass__
 
 #### float-span first (fsf)
 
-__scss__
+__SCSS__
 
 ```scss
 @include float-span(${1:columns}, 'first');
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +float-span(${1:columns}, 'first')
@@ -320,13 +322,13 @@ __sass__
 
 #### float-span last (fsl)
 
-__scss__
+__SCSS__
 
 ```scss
 @include float-span(${1:columns}, 'last');
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +float-span(${1:columns}, 'last')
@@ -334,13 +336,13 @@ __sass__
 
 #### column-span (cs)
 
-__scss__
+__SCSS__
 
 ```scss
 column-span(${1:columns}, ${2:start}, ${3:grid}, ${4:gutter})
 ```
 
-__sass__
+__SASS__
 
 ```sass
 column-span(${1:columns}, ${2:start}, ${3:grid}, ${4:gutter})
@@ -348,13 +350,13 @@ column-span(${1:columns}, ${2:start}, ${3:grid}, ${4:gutter})
 
 #### gutter-span (gus)
 
-__scss__
+__SCSS__
 
 ```scss
 gutter-span(${1:gutter}, ${2:grid})
 ```
 
-__sass__
+__SASS__
 
 ```sass
 gutter-span(${1:gutter}, ${2:grid})
@@ -364,13 +366,13 @@ gutter-span(${1:gutter}, ${2:grid})
 
 #### include clearfix (icf)
 
-__scss__
+__SCSS__
 
 ```scss
 @include clearfix;
 ```
 
-__sass__
+__SASS__
 
 ```sass
 +clearfix
@@ -378,13 +380,13 @@ __sass__
 
 #### extend clearfix (ecf)
 
-__scss__
+__SCSS__
 
 ```scss
 @extend %clearfix;
 ```
 
-__sass__
+__SASS__
 
 ```sass
 @extend %clearfix
@@ -392,13 +394,13 @@ __sass__
 
 #### find-grid (fg)
 
-__scss__
+__SCSS__
 
 ```scss
 find-grid(${1:grid})
 ```
 
-__sass__
+__SASS__
 
 ```sass
 find-grid(${1:grid})
@@ -406,13 +408,13 @@ find-grid(${1:grid})
 
 #### find-gutter (fgu)
 
-__scss__
+__SCSS__
 
 ```scss
 find-gutter(${1:gutter})
 ```
 
-__sass__
+__SASS__
 
 ```sass
 find-gutter(${1:gutter})
