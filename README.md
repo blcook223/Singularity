@@ -1,11 +1,10 @@
-# Singularity
+# SingularitySnippets
 
-A Singularity.gs plugin for Sublime Text 3.
+A collection of Singularity.gs snippets for Sublime Text 3.
 
-To use this pre-release version of the Singularity Sublime Text 3 plugin, execute
-the command `git clone https://github.com/blcook223/Singularity` in your Sublime
-Text `Packages` directory. When this plugin is officially released, it will also
-be available through [Package Control](https://packagecontrol.io/).
+To install manually, execute the command `git clone https://github.com/blcook223/Singularity`
+in your Sublime Text `Packages` directory. When this plugin is officially released,
+it will also be available through [Package Control](https://packagecontrol.io/).
 
 ## Snippets
 
