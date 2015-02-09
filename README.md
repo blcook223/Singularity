@@ -1,6 +1,6 @@
 # SingularitySnippets
 
-A collection of Singularity.gs snippets for Sublime Text 3.
+A collection of [Singularity.gs](http://singularity.gs/) snippets for Sublime Text 3.
 
 To install manually, execute the command `git clone https://github.com/blcook223/Singularity`
 in your Sublime Text `Packages` directory. When this plugin is officially released,
