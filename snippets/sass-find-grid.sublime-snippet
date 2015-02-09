@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[find-grid(${1:grid})]]></content>
+    <tabTrigger>fg</tabTrigger>
+    <description>Singularity GS - Find Grid</description>
+    <scope>source.sass, text.haml</scope>
+</snippet>

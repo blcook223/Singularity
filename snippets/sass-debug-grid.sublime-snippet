@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[+sgs-change('debug', ${1:true})
+
+${2:.container}
+    +background-grid(\$color ${3:blue})]]></content>
+    <tabTrigger>dg</tabTrigger>
+    <description>Singularity GS - Debug Grid</description>
+    <scope>source.sass, text.haml</scope>
+</snippet>

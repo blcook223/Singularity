@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[+isolation-span(${1:columns}, ${2:start}, '${3:clear}')]]></content>
+    <tabTrigger>is</tabTrigger>
+    <description>Singularity GS - Isolation Span</description>
+    <scope>meta.property-list.sass, text.haml</scope>
+</snippet>

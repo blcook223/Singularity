@@ -19,67 +19,107 @@ list.
 
 ### Grid and Gutter Definitions
 
-#### SCSS
+#### add-grid (ag)
 
-__add-grid (ag)__
+__scss__
 
 ```scss
 @include add-grid(${1:grid});
 ```
 
-#### SCSS
+__sass__
 
-__add-grid at (aga)__
+```sass
++add-grid(${1:grid})
+
+
+#### add-grid at (aga)
+
+__scss__
 
 ```scss
 @include add-grid(${1:grid} at ${2:min-width}px);
 ```
 
-#### SCSS
+__sass__
 
-__add-gutter (agu)__
+```sass
++add-grid(${1:grid} at ${2:min-width}px)
+
+#### add-gutter (agu)
+
+__scss__
 
 ```scss
 @include add-gutter(${1:gutter});
 ```
 
-#### SCSS
+__sass__
 
-__add-gutter-style (agus)__
+```sass
++add-gutter(${1:gutter})
+
+#### add-gutter-style (agus)
+
+__scss__
 
 ```scss
 @include add-gutter-style('${1:style}');
 ```
 
+__sass__
+
+```sass
++add-gutter-style('${1:style')
+```
+
 ### Options
 
-#### SCSS
+#### change option (ch)
 
-__change option (ch)__
+__scss__
 
 ```scss
 @include sgs-change('${1:option}', ${2:value});
 ```
 
-#### SCSS
+__sass__
 
-__change output style (cho)__
+```sass
++sgs-change('${1:option}', ${2:value})
+```
+
+#### change output style (cho)
+
+__scss__
 
 ```scss
 @include sgs-change('output', ${1:value});
 ```
 
-#### SCSS
+__sass__
 
-__change direction (chd)__
+```sass
++sgs-change('output', ${1:value})
+```
+
+#### change direction (chd)
+
+__scss__
 
 ```scss
 @include sgs-change('direction', ${1:value});
 ```
 
-#### SCSS
+__sass__
 
-__turn on debug grid (dg)__
+```sass
++sgs-change('direction', ${1:value})
+```
+
+#### turn on debug grid (dg)
+
+__scss__
 
 ```scss
 @include sgs-change('debug', ${1:true});
@@ -89,12 +129,20 @@ ${2:.container} {
 }
 ```
 
+__sass__
+
+```sass
++sgs-change('debug', ${1:true})
+
+${2:.container}
+    +background-grid($color: ${3:blue})
+```
 
 ### Layouts
 
-#### SCSS
+#### layout (lo)
 
-__layout (lo)__
+__scss__
 
 ```scss
 @include layout(${1:grid}, ${2:gutter}, '${3:output-style}', '${4:gutter-style}') {
@@ -102,9 +150,16 @@ __layout (lo)__
 }
 ```
 
-#### SCSS
+__sass__
 
-__layout verbose (lov)__
+```sass
++layout(${1:grid}, ${2:gutter}, '${3:output-style}', '${4:gutter-style}')
+    ${5:property}: ${6:value}
+```
+
+#### layout verbose (lov)
+
+__scss__
 
 ```scss
 @include layout((
@@ -117,19 +172,38 @@ __layout verbose (lov)__
 }
 ```
 
-#### SCSS
+__sass__
 
-__layout-at (loa)__
+```sass
++layout((
+    'grid': ${1:grid},
+    'gutter': ${2:gutter},
+    'gutter style': '${3:gutter-style}',
+    'output': '${4:output-style}'
+))
+    ${5:property}: ${6:value}
+```
+
+#### layout-at (loa)
+
+__scss__
 
 ```scss
 @include layout-at(${1:grid}, ${2:min-width}px) {
-    ${3:property}: ${4:value}
+    ${3:property}: ${4:value};
 }
 ```
 
-#### SCSS
+__sass__
 
-__layout-at verbose (loav)__
+```sass
++layout-at(${1:grid}, ${2:min-width}px)
+    ${3:property}: ${4:value}
+```
+
+#### layout-at verbose (loav)
+
+__scss__
 
 ```scss
 @include layout((
@@ -142,119 +216,214 @@ __layout-at verbose (loav)__
 }
 ```
 
+__sass__
+
+```sass
++layout((
+    'grid': ${1:grid},
+    'gutter': ${2:gutter},
+    'gutter style': '${3:gutter-style}',
+    'output': '${4:output-style}'
+), ${5:min-width}px)
+    ${6:property} ${7:value}
+```
 
 ### Spans
 
-#### SCSS
+#### grid-span (gs)
 
-__grid-span (gs)__
+__scss__
 
 ```scss
 @include grid-span(${1:columns}, ${2:start});
 ```
 
-#### SCSS
+__sass__
 
-__grid-span verbose (gsv)__
+```sass
++grid-span(${1:columns}, ${2:start})
+```
+
+#### grid-span verbose (gsv)
+
+__scss__
 
 ```scss
 @include grid-span(${1:columns}, ${2:start}, ${3:grid}, ${4:gutter}, '${5:gutter-style}');
 ```
 
-#### SCSS
+__sass__
 
-__isolation-span (is)__
+```sass
++grid-span(${1:columns}, ${2:start}, ${3:grid}, ${4:gutter}, '${5:gutter-style}')
+```
+
+#### isolation-span (is)
+
+__scss__
 
 ```scss
 @include isolation-span(${1:columns}, ${2:start}, '${3:clear}');
 ```
 
-#### SCSS
+__sass__
 
-__isolation-span verbose (isv)__
+```sass
++isolation-span(${1:columns}, ${2:start}, '${3:clear}')
+```
+
+#### isolation-span verbose (isv)
+
+__scss__
 
 ```scss
 @include isolation-span(${1:columns}, ${2:start}, '${3:clear}', ${4:grid}, ${5:gutter});
 ```
 
-#### SCSS
+__sass__
 
-__float-span (fs)__
+```sass
++isolation-span(${1:columns}, ${2:start}, '${3:clear}', ${4:grid}, ${5:gutter})
+```
+
+#### float-span (fs)
+
+__scss__
 
 ```scss
 @include float-span(${1:columns});
 ```
 
-#### SCSS
+__sass__
 
-__float-span verbose (fsv)__
+```scss
++float-span(${1:columns})
+```
+
+#### float-span verbose (fsv)
+
+__scss__
 
 ```scss
 @include float-span(${1:columns}, $grid: ${2:grid}, $gutter: ${3:gutter});
 ```
 
-#### SCSS
+__sass__
 
-__float-span first (fsf)__
+```sass
++float-span(${1:columns}, $grid: ${2:grid}, $gutter: ${3:gutter})
+```
+
+#### float-span first (fsf)
+
+__scss__
 
 ```scss
 @include float-span(${1:columns}, 'first');
 ```
 
-#### SCSS
+__sass__
 
-__float-span last (fsl)__
+```sass
++float-span(${1:columns}, 'first')
+```
+
+#### float-span last (fsl)
+
+__scss__
 
 ```scss
 @include float-span(${1:columns}, 'last');
 ```
 
-#### SCSS
+__sass__
 
-__column-span (cs)__
+```sass
++float-span(${1:columns}, 'last')
+```
+
+#### column-span (cs)
+
+__scss__
 
 ```scss
 column-span(${1:columns}, ${2:start}, ${3:grid}, ${4:gutter})
 ```
 
-#### SCSS
+__sass__
 
-__gutter-span (gus)__
+```sass
+column-span(${1:columns}, ${2:start}, ${3:grid}, ${4:gutter})
+```
+
+#### gutter-span (gus)
+
+__scss__
 
 ```scss
 gutter-span(${1:gutter}, ${2:grid})
 ```
 
+__sass__
+
+```sass
+gutter-span(${1:gutter}, ${2:grid})
+```
+
 ### Other
 
-#### SCSS
+#### include clearfix (icf)
 
-__include clearfix (icf)__
+__scss__
 
 ```scss
 @include clearfix;
 ```
 
-#### SCSS
+__sass__
 
-__extend clearfix (ecf)__
+```sass
++clearfix
+```
+
+#### extend clearfix (ecf)
+
+__scss__
 
 ```scss
 @extend %clearfix;
 ```
 
-#### SCSS
+__sass__
 
-__find-grid (fg)__
+```sass
+@extend %clearfix
+```
+
+#### find-grid (fg)
+
+__scss__
 
 ```scss
 find-grid(${1:grid})
 ```
 
-#### SCSS
+__sass__
 
-__find-gutter (fgu)__
+```sass
+find-grid(${1:grid})
+```
+
+#### find-gutter (fgu)
+
+__scss__
 
 ```scss
+find-gutter(${1:gutter})
+```
+
+__sass__
+
+```sass
 find-gutter(${1:gutter})
 ```

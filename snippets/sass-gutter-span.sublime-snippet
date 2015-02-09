@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[gutter-span(${1:gutter}, ${2:grid})]]></content>
+    <tabTrigger>gus</tabTrigger>
+    <description>Singularity GS - Gutter Span</description>
+    <scope>source.sass, text.haml</scope>
+</snippet>

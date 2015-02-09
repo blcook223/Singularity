@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[+add-grid(${1:grid} at ${2:min-width}px)]]></content>
+    <tabTrigger>aga</tabTrigger>
+    <description>Singularity GS - Add Grid At</description>
+    <scope>source.sass, text.haml</scope>
+</snippet>

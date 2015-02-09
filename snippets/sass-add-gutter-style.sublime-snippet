@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[+add-gutter-style('${1:style}')]]></content>
+    <tabTrigger>agus</tabTrigger>
+    <description>Singularity GS - Add Gutter Style</description>
+    <scope>source.sass, text.haml</scope>
+</snippet>

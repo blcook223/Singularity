@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[+layout-at(${1:grid}, ${2:min-width}px)
+    ${3:property}: ${4:value}]]></content>
+    <tabTrigger>loa</tabTrigger>
+    <description>Singularity GS - Layout At</description>
+    <scope>source.sass, text.haml</scope>
+</snippet>
