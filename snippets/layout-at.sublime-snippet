@@ -4,5 +4,5 @@
 }]]></content>
     <tabTrigger>loa</tabTrigger>
     <description>Singularity GS - Layout At</description>
-    <scope>source.css, source.scss, source.less, source.stylus</scope>
+    <scope>source.scss</scope>
 </snippet>

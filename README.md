@@ -12,12 +12,14 @@ be available through [Package Control](https://packagecontrol.io/).
 To use a snippet, type in the two- to four-letter code in parentheses and press
 <kbd>Tab</kbd>.
 
-Most snippets are available anywhere in a CSS, SCSS, LESS, or Stylus source file.
-Some, such as the various *-span include statements, are only available within a
-property list.
+Most snippets are available anywhere in a SASS or SCSS source file. Some, such
+as the various *-span include statements, are only available within a property
+list.
 
 
 ### Grid and Gutter Definitions
+
+#### SCSS
 
 __add-grid (ag)__
 
@@ -25,11 +27,15 @@ __add-grid (ag)__
 @include add-grid(${1:grid});
 ```
 
+#### SCSS
+
 __add-grid at (aga)__
 
 ```scss
 @include add-grid(${1:grid} at ${2:min-width}px);
 ```
+
+#### SCSS
 
 __add-gutter (agu)__
 
@@ -37,14 +43,17 @@ __add-gutter (agu)__
 @include add-gutter(${1:gutter});
 ```
 
+#### SCSS
+
 __add-gutter-style (agus)__
 
 ```scss
 @include add-gutter-style('${1:style}');
 ```
 
-
 ### Options
+
+#### SCSS
 
 __change option (ch)__
 
@@ -52,17 +61,23 @@ __change option (ch)__
 @include sgs-change('${1:option}', ${2:value});
 ```
 
+#### SCSS
+
 __change output style (cho)__
 
 ```scss
 @include sgs-change('output', ${1:value});
 ```
 
+#### SCSS
+
 __change direction (chd)__
 
 ```scss
 @include sgs-change('direction', ${1:value});
 ```
+
+#### SCSS
 
 __turn on debug grid (dg)__
 
@@ -77,6 +92,8 @@ ${2:.container} {
 
 ### Layouts
 
+#### SCSS
+
 __layout (lo)__
 
 ```scss
@@ -84,6 +101,8 @@ __layout (lo)__
     ${5:property}: ${6:value};
 }
 ```
+
+#### SCSS
 
 __layout verbose (lov)__
 
@@ -98,6 +117,8 @@ __layout verbose (lov)__
 }
 ```
 
+#### SCSS
+
 __layout-at (loa)__
 
 ```scss
@@ -105,6 +126,8 @@ __layout-at (loa)__
     ${3:property}: ${4:value}
 }
 ```
+
+#### SCSS
 
 __layout-at verbose (loav)__
 
@@ -122,11 +145,15 @@ __layout-at verbose (loav)__
 
 ### Spans
 
+#### SCSS
+
 __grid-span (gs)__
 
 ```scss
 @include grid-span(${1:columns}, ${2:start});
 ```
+
+#### SCSS
 
 __grid-span verbose (gsv)__
 
@@ -134,11 +161,15 @@ __grid-span verbose (gsv)__
 @include grid-span(${1:columns}, ${2:start}, ${3:grid}, ${4:gutter}, '${5:gutter-style}');
 ```
 
+#### SCSS
+
 __isolation-span (is)__
 
 ```scss
 @include isolation-span(${1:columns}, ${2:start}, '${3:clear}');
 ```
+
+#### SCSS
 
 __isolation-span verbose (isv)__
 
@@ -146,11 +177,15 @@ __isolation-span verbose (isv)__
 @include isolation-span(${1:columns}, ${2:start}, '${3:clear}', ${4:grid}, ${5:gutter});
 ```
 
+#### SCSS
+
 __float-span (fs)__
 
 ```scss
 @include float-span(${1:columns});
 ```
+
+#### SCSS
 
 __float-span verbose (fsv)__
 
@@ -158,11 +193,15 @@ __float-span verbose (fsv)__
 @include float-span(${1:columns}, $grid: ${2:grid}, $gutter: ${3:gutter});
 ```
 
+#### SCSS
+
 __float-span first (fsf)__
 
 ```scss
 @include float-span(${1:columns}, 'first');
 ```
+
+#### SCSS
 
 __float-span last (fsl)__
 
@@ -170,11 +209,15 @@ __float-span last (fsl)__
 @include float-span(${1:columns}, 'last');
 ```
 
+#### SCSS
+
 __column-span (cs)__
 
 ```scss
 column-span(${1:columns}, ${2:start}, ${3:grid}, ${4:gutter})
 ```
+
+#### SCSS
 
 __gutter-span (gus)__
 
@@ -184,11 +227,15 @@ gutter-span(${1:gutter}, ${2:grid})
 
 ### Other
 
+#### SCSS
+
 __include clearfix (icf)__
 
 ```scss
 @include clearfix;
 ```
+
+#### SCSS
 
 __extend clearfix (ecf)__
 
@@ -196,11 +243,15 @@ __extend clearfix (ecf)__
 @extend %clearfix;
 ```
 
+#### SCSS
+
 __find-grid (fg)__
 
 ```scss
 find-grid(${1:grid})
 ```
+
+#### SCSS
 
 __find-gutter (fgu)__
 

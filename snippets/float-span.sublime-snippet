@@ -2,5 +2,5 @@
     <content><![CDATA[@include float-span(${1:columns});]]></content>
     <tabTrigger>fs</tabTrigger>
     <description>Singularity GS - Float Span</description>
-    <scope>meta.property-list.css, meta.property-list.scss, meta.property-list.less, meta.property-list.stylus</scope>
+    <scope>meta.property-list.scss</scope>
 </snippet>

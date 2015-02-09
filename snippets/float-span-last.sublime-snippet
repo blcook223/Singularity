@@ -2,5 +2,5 @@
     <content><![CDATA[@include float-span(${1:columns}, 'last');]]></content>
     <tabTrigger>fsl</tabTrigger>
     <description>Singularity GS - Float Span Last</description>
-    <scope>meta.property-list.css, meta.property-list.scss, meta.property-list.less, meta.property-list.stylus</scope>
+    <scope>meta.property-list.scss</scope>
 </snippet>

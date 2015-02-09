@@ -2,5 +2,5 @@
     <content><![CDATA[@include add-gutter-style('${1:style}');]]></content>
     <tabTrigger>agus</tabTrigger>
     <description>Singularity GS - Add Gutter Style</description>
-    <scope>source.css, source.scss, source.less, source.stylus</scope>
+    <scope>source.scss</scope>
 </snippet>

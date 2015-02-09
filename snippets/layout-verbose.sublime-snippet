@@ -9,5 +9,5 @@
 }]]></content>
     <tabTrigger>lov</tabTrigger>
     <description>Singularity GS - Layout (verbose)</description>
-    <scope>source.css, source.scss, source.less, source.stylus</scope>
+    <scope>source.scss</scope>
 </snippet>

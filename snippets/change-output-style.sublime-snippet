@@ -2,5 +2,5 @@
     <content><![CDATA[@include sgs-change('output', '${1:value}');]]></content>
     <tabTrigger>cho</tabTrigger>
     <description>Singularity GS - Change Output Style</description>
-    <scope>source.css, source.scss, source.less, source.stylus</scope>
+    <scope>source.scss</scope>
 </snippet>

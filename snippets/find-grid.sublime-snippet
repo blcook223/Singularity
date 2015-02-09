@@ -2,5 +2,5 @@
     <content><![CDATA[find-grid(${1:grid})]]></content>
     <tabTrigger>fg</tabTrigger>
     <description>Singularity GS - Find Grid</description>
-    <scope>source.css, source.scss, source.less, source.stylus</scope>
+    <scope>source.scss</scope>
 </snippet>

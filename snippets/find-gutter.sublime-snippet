@@ -2,5 +2,5 @@
     <content><![CDATA[find-gutter(${1:gutter})]]></content>
     <tabTrigger>fgu</tabTrigger>
     <description>Singularity GS - Find Gutter</description>
-    <scope>source.css, source.scss, source.less, source.stylus</scope>
+    <scope>source.scss</scope>
 </snippet>

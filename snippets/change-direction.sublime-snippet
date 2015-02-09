@@ -2,5 +2,5 @@
     <content><![CDATA[@include sgs-change('direction', '${1:value}');]]></content>
     <tabTrigger>chd</tabTrigger>
     <description>Singularity GS - Change Direction</description>
-    <scope>source.css, source.scss, source.less, source.stylus</scope>
+    <scope>source.scss</scope>
 </snippet>

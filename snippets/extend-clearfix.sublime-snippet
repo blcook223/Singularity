@@ -2,5 +2,5 @@
     <content><![CDATA[@extend %clearfix;]]></content>
     <tabTrigger>ecf</tabTrigger>
     <description>Singularity GS - Extend Clearfix</description>
-    <scope>meta.property-list.css, meta.property-list.scss, meta.property-list.less, meta.property-list.stylus</scope>
+    <scope>meta.property-list.scss</scope>
 </snippet>
